@@ -1,6 +1,6 @@
 A Mudlet GUI for Aelisus MUD.
 
-#Instructions:
+# Instructions:
 
 - Install the package into a fresh Mudlet profile.
 - Set font size to 11, and wrap lines at 85 characters (or whatever works best for your screen size; you'll be able to tell when you install the package)
@@ -10,7 +10,7 @@ A Mudlet GUI for Aelisus MUD.
 - Mudlet comes packaged with GUI dependencies not included with this file. These are: echo, run-lua-code-v4, deleteOldProfiles, and generic_mapper.
 - If the font sizes in the console windows are too small for you, click scripts, and go into the Template -> GUI -> Main Boxes folder. Each individual console has its own script in that folder. Look for fontSize = 7, and update to your preferred size.
 
-#Features:
+# Features:
 
 - Gauge toolbar for HP, Mana, Moves, and XP TNL
 - Quick-view statistics console with some useful info
@@ -25,13 +25,13 @@ A Mudlet GUI for Aelisus MUD.
 - Clickable URLs
 - Tiny quality of life tweaks, such as highlighting and the sayto command
 
-#Known Issues:
+# Known Issues:
 
 - I haven't updated the mapper to use GMCP yet. It works well, but it's not perfect. You'll want to familiarize yourself with the commands in 'map help' so you can make adjustments if need be.
 - Aelisus has a LOT of things that print with [] at the beginning with nothing further to set them apart, a whole lot of which are channels. Anything with [] at the start is thus caught as if it were a channel and printed to the chatbox.
 - Inventory and equipment are using the CF-style trigger captures, which I've noticed aren't very sleek (though super clever way to handle it - hats off). This will be adapted to GMCP as soon as feasible.
 
-#Planned Features:
+# Planned Features:
 - GMCP mapping.
 - GMCP inventory/equipment handling.
 - Enemy/target reporting in statistics console
