@@ -32,5 +32,4 @@ A Mudlet GUI for Aelisus MUD.
 
 # Planned Features:
 - GMCP mapping.
-- GMCP inventory/equipment handling.
-- Enemy/target reporting in statistics console
+- Group leader reporting console.
