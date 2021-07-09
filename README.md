@@ -3,11 +3,11 @@ A Mudlet GUI for Aelisus MUD.
 # Instructions:
 
 - Install the package into a fresh Mudlet profile.
-- Set font size to 11, and wrap lines at 85 characters (or whatever works best for your screen size; you'll be able to tell when you install the package)
-- The 'find prompt' command is your key to making sure everything is populated. This should populate itself automatically when you log in the first time. If it doesn't, manually enter 'find prompt.' If you change your prompt, enter 'find prompt' again to automatically repopulate it. This is needed for just about everything in the GUI to update.
+- Adjust main window font size and wrap to suit your screen.
+- Use 'find prompt' if the prompt didn't automatically populate.
 - See the help alias for using the gui (guihelp) and set your console font size if desired
-- Check 'map help' for information on how to start mapping. The quick version is 'start mapping' and 'stop mapping.' You can specify area name with 'start mapping Atheln', for example.
-- Mudlet comes packaged with GUI dependencies not included with this file. These are: echo, run-lua-code-v4, deleteOldProfiles, and generic_mapper.
+- Check 'map help' for information on how to start mapping. 
+- You need Mudlet's generic_mapper script in order for the GUI to work.
 
 # Features:
 
@@ -33,3 +33,5 @@ A Mudlet GUI for Aelisus MUD.
 # Planned Features:
 - GMCP mapping.
 - Group leader reporting console.
+- Items, mobs, and people in room console.
+- Theme-ing options on the user end.
