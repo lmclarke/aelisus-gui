@@ -9,6 +9,9 @@ A Mudlet GUI for Aelisus MUD.
 - Check 'map help' for information on how to start mapping. 
 - You need Mudlet's generic_mapper script in order for the GUI to work.
 
+## Known Quirks
+- Sometimes on a fresh install you have to open the scripts list and click gauges to load them.
+
 # Features:
 
 - Gauge toolbar for HP, Mana, Moves, and XP TNL
