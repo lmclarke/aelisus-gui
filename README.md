@@ -37,5 +37,6 @@ A Mudlet GUI for Aelisus MUD.
 
 # Planned Features:
 - GMCP mapping.
+- Optional server-side automap capture window.
 - Items, mobs, and people in room console.
-- Theme-ing options on the user end.
+- More theme options on the user end.
