@@ -32,7 +32,7 @@ A Mudlet GUI for Aelisus MUD.
 # Known Issues:
 
 - I haven't updated the mapper to use GMCP yet. It works well, but it's not perfect.
-- Aelisus has a LOT of things that print with [] at the beginning with nothing further to set them apart, a whole lot of which are channels. Anything with [] at the start is thus caught as if it were a channel and printed to the chatbox.
+- Aelisus has a LOT of things that print with [] at the beginning with nothing further to set them apart, most but not all of which are channels. Anything with [] at the start is thus caught as if it were a channel and printed to the chatbox.
 - Equipment is using the CF-style trigger captures, which aren't very sleek (though super clever way to handle it - hats off). This will be adapted to GMCP as soon as feasible.
 
 # Planned Features:
